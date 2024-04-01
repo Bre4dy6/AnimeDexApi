@@ -101,7 +101,7 @@ export default {
                     headers: { "Access-Control-Allow-Origin": "*", Vary: "Origin" },
                 });
             }   // MISSING CLOSING BRACE AND PARENTHESIS HERE
-            const text = 'hoip this is some random qi whcih does random things
+            const text = 'hoip this is some random qi whcih does random things'
             return new Response(text, {
                 headers: {
                     "content-type": "text/html",
